@@ -1,10 +1,25 @@
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: green;
 }
 
 .navv1 {
     display: flex;
     justify-content: center;
+    align-content: center;
+    background-color: yellow;
+}
+
+.navP1 {
+    padding: 0 20px;
+}
+.navv2 {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.navP2 {
+    padding: 0 20px;
 }
