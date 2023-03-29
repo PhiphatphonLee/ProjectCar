@@ -4,22 +4,23 @@ nav {
     background-color: green;
 }
 
-.navv1 {
+.navS {
     display: flex;
     justify-content: center;
-    align-content: center;
-    background-color: yellow;
+    align-items: center;
 }
 
+#navS1 {
+    background-color: yellow;
+}
 .navP1 {
     padding: 0 20px;
 }
-.navv2 {
-    display: flex;
-    justify-content: center;
+
+#navS2 {
     background-color: blue;
 }
-
 .navP2 {
-    padding: 0 20px;
+    padding: 0 60px;
 }
+
