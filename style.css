@@ -2,6 +2,8 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: green;
+    height: 80px;
+    
 }
 
 .navS {
@@ -10,20 +12,31 @@ nav {
     align-items: center;
 }
 
+.navS h1 {
+    font-size: 50px;
+    padding: 0 20px;
+}
+.navS a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
 #navS1 {
     background-color: yellow;
 }
 
-.navH1 {
-    padding: 0 20px;
-}
 .navP1 {
-    margin: 0 10px;
-    padding: 0 10px;
+    margin: 0px 10px;
+    padding: 0px 10px;
     padding-bottom: 5px;
     border-bottom: 2px solid black;
+    transition: 0.3s;
 }
 
+.navP1:hover {
+    border-color: white;
+}
 #navS2 {
     background-color: blue;
 }
@@ -33,17 +46,27 @@ nav {
 
 .container1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;   
 }
 .checklist {
     background-color: pink;
     width: 20%;
+    height: 700px;
 
 }
 
+.listContainer {
+    text-align: center;
+    border: 2px solid black;
+    height: 500px;
+}
 .list {
     background-color:aquamarine;
     width: 60%;
+    display:flex;
+    justify-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 25%);
+    grid-template-columns: repeat(auto-fill, 330.5px);
+    gap: 30px 50px;
 }
