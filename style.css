@@ -1,9 +1,16 @@
+a {
+    text-decoration: none;
+    color: black;
+}
 nav {
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: green;
+    background-color: white;
     height: 80px;
-    
+    box-shadow: 0px 0px 10px #C0C0C0;
 }
 
 .navS {
@@ -18,27 +25,18 @@ nav {
 }
 .navS a {
     font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-#navS1 {
-    background-color: yellow;
 }
 
 .navP1 {
     margin: 0px 10px;
     padding: 0px 10px;
     padding-bottom: 5px;
-    border-bottom: 2px solid black;
-    transition: 0.3s;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    transition: 0.2s;
 }
 
 .navP1:hover {
-    border-color: white;
-}
-#navS2 {
-    background-color: blue;
+    border-color: black;
 }
 .navP2 {
     padding: 0 60px;
@@ -50,19 +48,45 @@ nav {
     margin-top: 50px;   
 }
 .checklist {
-    background-color: pink;
+    background-color: white;
     width: 20%;
-    height: 700px;
-
+    height: 470px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.checklist h1 {
+    border-bottom: 2px solid black;
+    margin: 0px 0;
+    padding: 10px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.checklist h1:hover{
+    background-color: red;
 }
 
 .listContainer {
     text-align: center;
-    border: 2px solid black;
     height: 500px;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+.listContainer img{
+    width: 270px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+.listContainer:hover {
+    box-shadow: 0px 0px 20px #808080;
+}
+.listContainer:active {
+    border-style: dashed;
+    color: black;
 }
 .list {
-    background-color:aquamarine;
+    /* background-color:aquamarine; */
     width: 60%;
     display:flex;
     justify-content: center;
@@ -70,3 +94,11 @@ nav {
     grid-template-columns: repeat(auto-fill, 330.5px);
     gap: 30px 50px;
 }
+
+footer {
+    width: 100%;
+    height: 400px;
+    margin-top: 300px;
+    background-color: gray;
+}
+
