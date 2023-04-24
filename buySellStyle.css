@@ -90,13 +90,16 @@ a {
     border-style: dashed;
     color: black;
 }
+.list a img { 
+    border: none;
+}
 .list {
     /* background-color:aquamarine; */
     width: 60%;
     display:flex;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 530px);
+    grid-template-columns: repeat(auto-fill, 1300px);
     gap: 30px 50px;
 }
 
