@@ -1,5 +1,5 @@
 body{ 
-    background-color: blue;
+    background-color: gray;
 }
 
 .container {
@@ -12,7 +12,7 @@ body{
 }
 
 .homeLogo {
-    background-color: aquamarine;
+    background-color: gray;
     font-size: 150px;
 }
 
